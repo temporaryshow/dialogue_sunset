@@ -1,0 +1,63 @@
+
+.site-header {
+  background: linear-gradient(300deg, #00bfff, #fe415d, #f1ba9f);
+  background-size: 150% 180%;
+  animation: gradient-animation 18s ease infinite;
+  font-family: 'Josefin Slab', serif;
+}
+
+.media-thumbnail {
+  max-height: 30px;
+  margin-bottom: 2px;
+}
+
+
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-divider1 {
+  margin-bottom: 5rem; 
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+  /* Bump up size of carousel content */
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.btn-outline-secondary {
+  border:0px;
+  border-radius: 15px;
+}
